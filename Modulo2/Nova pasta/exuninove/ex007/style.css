@@ -1,0 +1,21 @@
+@charset "UTF-08";
+body{
+
+    background-image: linear-gradient(to right, #03A696, #04BF9D)
+        
+     }
+
+main {
+    background-color: rgb(248, 238, 215);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.404);
+    width: 750px;
+    padding: 20px;
+    margin: auto;
+    }
+    .log{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        border-radius: 10px;
+    }
+    

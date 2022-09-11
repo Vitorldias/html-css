@@ -1,0 +1,43 @@
+@charset "UTF-08";
+h1{
+    background-color: lightgray;
+    height: 300px;
+    width: 300px;
+
+   /* border-width: 10px;
+    border-style: solid;
+    border-color: darkslategray;
+    display: inline; transforma blockline em inline e nao pode fazer altura e largura por ser inline
+    display:block; transforma em bloco, um bloco começa numa linha sozinha e ocupa a largura do site inteira.
+    display: inline-block; possui as duas caracteristicas, possibilitando alterar altura largura etc*/
+
+    border: 10px solid darkslategray;
+
+    /*padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;*/
+
+    padding: 10px;
+
+    /*margin-top: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    margin-left: 20px;*/
+
+    margin: 20px 20px 40px 20px; /* 1 valor = igual para os 4 lados
+    2 valores = cima e baixo + esquerda direita , 4 valores = 1 valor para cada lado*/
+
+    /*outline-width: 5px;
+    outline-style: dashed;
+    outline-color: salmon;
+    margin: auto; centraliza a box*/
+
+    outline: 5px dashed salmon;
+}
+a{
+    /*border-width: 10px;
+    border-style: solid;
+    border-color: red;*/
+    border: 10px solid red;
+}

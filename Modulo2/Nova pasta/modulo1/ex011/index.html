@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture><!--é necessario que seja criado o source em ordem crescente, ou seja os tamanhos menores acima dos maiores-->
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width:1000px )" srcset="imagens/foto-m.png" type="image/png">
+        <img src="Imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+    <h1>Reproduzindo Áudio</h1>
+    <p>vamos aprender a reproduzir áudios em HTML5<br> <strong>Like Moth To Flames - Worst in Me</strong> </p>
+    <audio src="midia/rosquenmalucao.mp3"controls></audio><!--Autoplay permite que a musica inicie toda vez que atualizar o site, é util em caso de radio online ou caso existe uma playlist grande de musicas ou audios-->
+    <p>Outras formas de adicionar audio.</p>
+    <audio preload="metadata" controls><!--metadata carrega apenas o nome do arquivo,data,duração,auto só considera que o site carregou quando o arquivo inteiro carregar, none nao carrega nada só quando o usuario apertar play nos controles-->
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+        <source src="midia/rosquenmalucao.mp3" type="audio/mpeg">
+        <p>Infelizmente seu navegador nao consegue reproduzir audio <a href="midia/rosquenmalucao.mp3">Clique aqui para baixar as calças e me dar</a></p>
+    </audio>
+    
+</body>
+</html>

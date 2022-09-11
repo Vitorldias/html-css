@@ -1,0 +1,14 @@
+@charset "utf-08";
+/*padding
+Define o espaço interno das células da tabela
+text-align
+Define o alinhamento horizontal das células da tabela
+vertical-align
+Define o alinhamento vertical das células da tabela
+border-spacing
+Define o espaço entre as células de uma tabela
+*/
+table, th, td {
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse /* Retira o espaço entre as bordas da tabela*/
+ }

@@ -1,0 +1,58 @@
+@charset "UTF-08";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    }
+/*medidas absolutas
+cm,mm,in,px,pt,pc
+
+Medidas relativas
+em, ex, rem, vw, %
+recomendação da w3c é que seja usado apenas em e px,
+16px geralmente =1em .
+weight = peso
+width = largura
+height = altura
+*/
+body {
+    background-image: linear-gradient(to right,#639bbe,#2986d8);
+    /*font-weight: normal;
+    font-style: italic;
+    text-decoration: underline;
+    lighter normal bold bolder*/
+    
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #003c8baf;
+    width: 800px;
+    padding: 10px;
+    margin: auto; /*sempre centraliza independente do tamanho da tela*/
+}
+
+h1 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #F25774;
+    text-align: center;
+    text-shadow: 1px 1px 2px #8d2e3dbe;
+    font-size: 35px ;
+    /*shorthand font
+    -font-style -> font weight -> font size -> font-family*/
+    font:italic bolder 3em 'work sans', sans-serif;
+
+}
+
+h2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: #033E8C;
+    font: bold 2em 'work sans', sans-serif;
+
+}
+p {
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 17px ;
+    color: rgb(0, 0, 0);
+}

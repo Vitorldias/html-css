@@ -1,0 +1,49 @@
+@charset "UTF-08";
+@font-face {
+    font-family:"devil" ;
+    src: url(fonte/STREET\ DEVIL.ttf) format('truetype'), url('fonte/STREET\ DEVIL.ttf');
+    font-weight: normal;
+    font-size: normal;
+    /*
+    tipos de format()
+    -opentype (otf)
+    -truetype (ttf)
+    -embedded-opentype
+    -truetype-aat (apple advanced typography
+    -svg*/
+}
+body {
+    
+    background-image: linear-gradient(to right,#070707,#525252);
+}
+
+main {
+    background-color: rgb(253, 237, 203);
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px #ff0000af;
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+}
+h1 {
+    color: #ff5b5b;
+    text-align: center;
+    text-shadow: 1px 1px 2px #8d2e3dbe;
+    font-size: 35px ;
+    font-family: devil,times,serif;
+    font-weight: normal;
+}
+h2 {
+    color: #ff5b5b;
+    text-align: center;
+    text-shadow: 1px 1px 2px #8d2e3dbe;
+    font-size: 20px ;
+    font-family: devil,times,serif;
+    font-weight: normal;
+}
+p {
+    text-align: justify;
+    font-size: 10px ;
+    color: #ff5b5b;
+    font-family: devil;
+}

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <body>
+        <main class="log">
+        <form action="teste.php" method="post" name="meu_formulario">
+        
+            Login: <input type="text" name="login">
+            Senha: <input type="password" name="senha">
+        </main>
+        <br>
+<main>
+            <p>
+            Sexo:<br>
+            <input type="radio" name="sexo" value="M">Masculino
+            <input type="radio" name="sexo" value="F">Feminino
+            <br>
+            <label for="feira">Feira<br>
+                       <select name="select" id="feira">
+                           <option selected value="1">Escolha um item</option>
+                           <optgroup label="frutas">
+                               <option value="banana">Banana</option>
+                               <option value="laranja">Laranja</option>
+                               <option value="melancia">Melancia</option>
+                               <option value="uva">Uva</option>
+                           </optgroup>
+                           <optgroup label="Verduras">
+                               <option value="alface">Alface</option>
+                               <option value="agriao">Agrião</option>
+                               <option value="rucula">Rúcula</option>
+                           </optgroup>
+                       </select>
+                   </label>
+            <br>
+            Usuário: <input type="text" name="user">
+           <keygen name="seguro">
+           <input type="submit" name="criar chave de segurança">
+            <br>
+                   Informe a marca de seu carro: 
+                   
+        <input list="carros">
+            <datalist id="carros">
+              <option value="Ford">
+              <option value="BMW">
+              <option value="Fiat">
+              <option value="GM">
+              <option value="Honda">
+              <option value="Audi">
+            </datalist> 
+            <br>
+            Selecione um estado: 
+            <br>
+        <select name="estado">
+            <option value="SP">São Paulo</option>
+            <option value="RJ">Rio de Janeiro</option>
+            <option value="MG">Minas Gerais</option>
+            <option value="Nenhum" selected>Selecione um estado</option>
+        </select>
+            <p>
+            Deseja receber informações por:<br>
+            <input type="checkbox" name="email" checked>E-mail
+            <input type="checkbox" name="fone" checked>Telefone
+            <input type="checkbox" name="correio" checked>Correio
+            <p>
+            Selecione uma cor: <input type="color" name="cor">
+            <p>
+            Selecione uma data: <input type="date">
+            <p>
+            Selecione uma data antes de 01/01/2012: <input type="date" name="data_2011" max="2011-12-31">
+            <p>
+            Selecione uma data depois de 01/01/2012: <input type="date" name="data_2012" min="2012-01-02">
+            <p>
+            Selecione uma data e um horário: <input type="datetime-local" name="data_hora_local">
+            <p>
+            Informe seu e-mail de contato: <input type="email" name="email">
+            <p>
+            Selecione o mês e ano de seu nascimento: <input type="month" name="nascimento">
+            <p>
+            Selecione um número qualquer:   <input type="number" name="numero">
+            <p>
+            Selecione um número de 1 a 10: <input type="number" name="numero_restrito" min="1" max="10">
+            <p>
+            Dê uma nota para nossos serviços: 0<input type="range" name="satisfacao" min="1" max="10">10
+            <p>
+            Digite uma palavra chave para pesquisa: <input type="search" name="busca">
+            <p>
+            Informe seu telefone: <input type="tel" name="telefone"> 
+            <p>
+            Informe a hora de seu voo: <input type="time" name="hora_voo">
+            <p>
+            Informe o endereço (URL) de seu website: <input type="url" name="site">
+            <p>
+            Selecione a semana do ano que deseja ter licença: <input type="week" name="licenca">
+            <p>
+            Selecione um arquivo para envio: <input type="file" name="arquivo">       
+            <p>
+            Botão de teste <input type="button" value="botão de teste">
+            <p>
+            <input type="reset" value="limpe os dados do formulário">
+            <p>
+            <textarea name="recado" rows="15" cols="40">
+                Deixe aqui seu recado para que possamos entrar em contato.
+            </textarea>
+               <br>
+               <input type="submit" value="envie o formulário">
+        </form>
+    
+    <br>
+        <form action="teste.php" method="post" name="meu_formulario"oninput="x.value=parseInt(a.value)+parseInt(b.value)">
+            Informe quanto deseja receber de aumento, iniciando em 1%: 
+            0%
+           <input type="range" id="a" name="a" value="1">
+            100% +
+           <input type="number" id="b" name="b" value="1">
+            =
+           <output name="x" for="a b"></output>%
+           <br><br>
+           <input type="submit" value="enviar">
+</form>
+</main>
+<br>
+   <main>
+     <form action="teste.php" method="post" name="meu_formulario">
+      <fieldset>
+      <legend>Login</legend>
+        Login: <input type="text" name="login">
+        Senha: <input type="password" name="senha">
+        <p>
+      </fieldset>
+      <fieldset>
+      <legend>Outras informações</legend>   
+        Sexo:<br>
+        <input type="radio" name="sexo" value="M">Masculino
+        <input type="radio" name="sexo" value="F">Feminino
+        <p>
+        Deseja receber informações por:<br>
+        <input type="checkbox" name="email" checked>E-mail
+        <input type="checkbox" name="fone" checked>Telefone
+        <input type="checkbox" name="correio" checked>Correio
+        <p>
+        Selecione uma cor: <input type="color" name="cor">
+      </fieldset>
+       <fieldset>
+      <legend>Datas importantes</legend>  
+        Selecione uma data: <input type="date">
+        <p>
+        Selecione uma data antes de 01/01/2012: <input type="date" name="data_2011" max="2011-12-31">
+        <p>
+        Selecione uma data depois de 01/01/2012: <input type="date" name="data_2012" min="2012-01-02">
+        <p>
+        Selecione uma data e um horário: <input type="datetime-local" name="data_hora_local">
+        <p>
+        </fieldset>
+         
+        <input type="reset" value="limpe os dados do formulário">
+        
+        <input type="submit" value="envie o formulário">
+        </form>
+    </main>
+    <br>
+        <!--Nós podemos enviar as informações de um formulário para um e-mail pré-determinado. Para isto precisamos informar no atributo action qual o e-mail que receberá os dados do formulário e  informar que estes dados serão enviados como uma planilha de texto com o atributo enctype="text/plain". -->
+        <main>
+        <form action="mailto:meu_email@gmail.com" method="post" name="meu_formulario" enctype="text/plain">
+            <fieldset>
+              <legend>Login</legend>
+                Login: <input type="text" name="login">
+                Senha: <input type="password" name="senha">
+                <p>
+            </fieldset>
+            <fieldset>
+              <legend>Outras informações</legend>   
+                Sexo:<br>
+                <input type="radio" name="sexo" value="M">Masculino
+                <input type="radio" name="sexo" value="F">Feminino
+                <p>
+                Deseja receber informações por:<br>
+                <input type="checkbox" name="email" checked>E-mail
+                <input type="checkbox" name="fone" checked>Telefone
+                <input type="checkbox" name="correio" checked>Correio
+                <p>
+                Selecione uma cor: <input type="color" name="cor">
+              </fieldset>
+               <fieldset>
+              <legend>Datas importantes</legend>  
+                Selecione uma data: <input type="date">
+                <p>
+                Selecione uma data antes de 01/01/2012: <input type="date" name="data_2011" max="2011-12-31">
+                <p>
+                Selecione uma data depois de 01/01/2012: <input type="date" name="data_2012" min="2012-01-02">
+                <p>
+                Selecione uma data e um horário: <input type="datetime-local" name="data_hora_local">
+                <p>
+                </fieldset>
+                 
+                <input type="reset" value="limpe os dados do formulário">
+                
+                <input type="submit" value="envie o formulário">
+            </form>
+        </main>
+            <!--Atributo required (requeridos)
+Este atributo deve ser utilizado sempre que um campo de entrada de dados for obrigatório. Temos de prestar atenção pois não podemos utilizá-la em todas os tipos de entrada, mas é de grande ajuda. 
+
+Ao tentar enviar o formulário clicando no botão submit o usuário receberá uma mensagem de que o campo é obrigatório. -->
+<br>
+  <main>
+    <form action="teste.php" method="post" name="meu_formulario">
+        
+        Login: <input type="text" name="login" required>
+        Senha: <input type="password" name="senha" required>
+        <p>
+        Sexo:<br>
+        <input type="radio" name="sexo" value="M" required>Masculino
+        <input type="radio" name="sexo" value="F" required>Feminino
+        <p>
+   
+        Selecione uma data: <input type="date" required>
+       
+        <input type="reset" value="limpe os dados do formulário">
+        <p>
+        <input type="submit" value="envie o formulário">
+        <p> Selecione o numero que condiz com sua realidade suburbana</p>
+        <input type=number min="0" max="100" step="10"><br />
+    </form>
+  </main>
+  <!--Atributo pattern (padronizar)
+Utilizamos o atributo pattern quando queremos criar uma expressão regular para determinar um padrão de preenchimento de um campo como, por exemplo de um e-email ou mesmo CPF.-->
+<br>
+<main>
+    <form action="teste.php" method="post" name="meu_formulario"></form>
+    <!--letras minusculas-->
+    <p>digite o nome de um corno</p>
+    <input type="text" name="texto"  required pattern="[a-z\s]+$" />
+    <!--numeros-->
+    <p>digite a idade do corno</p>
+    <input type="text" name="numeros" required  pattern="[0-9]+$" />
+    <!--validar data especifica-->
+    <p>quando o corno foi corno a primeira vez</p>
+    <input type="date"  name="data" maxlength="10"  required  pattern="[0-9]{2}\/[0-9]{2}\/[0-9]{4}$" min="2010-01-01" max="2023-01-01" />
+   <!--Validar hora--> 
+   <p>qual hora o corno decidiu aceitar a cornisse</p>
+   <input type="time"  maxlength="8" name="hora" required pattern="[0-9]{2}:[0-9]{2} [0-9]{2}$" />
+   <!--validação de email-->
+   <p>digite o email do corno pra eu manda spam kkk</p>
+   <input type="email" name="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" />
+   <!--validar numero de telefone-->
+   <p>passa o zap do corno pra eu coloca ele em 50 grupo de trans e travestis</p>
+   <input type="tel"  maxlength="15" name="telefone"  required pattern="\([0-9]{2}\) [0-9]{4,6}-[0-9]{3,4}$" />
+   <br>
+   <input type="text" name="numeros" required  pattern="[0-9]+$" placeholder="digite apenas números" />
+   <br>
+   <input type="file" name="teste" multiple>
+   <br>
+    <input type="reset" value="limpe os dados do formulário">
+    <br>
+    <input type="submit" value="envie o formulário">
+    <br>
+
+</form>
+
+</main>
+    </main>
+</head>
+<body>
+    
+</body>
+</html>

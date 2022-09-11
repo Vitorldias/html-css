@@ -1,0 +1,71 @@
+@charset "UTF-08";
+@font-face {
+    font-family: "escola";
+    src: url(fontes/BackToSchool.ttf) format('truetype'), url('fontes/BackToSchool.ttf'); 
+    font-weight: normal;
+    font-size: normal;
+    
+}
+/*
+em HTML é id = em CSS é #
+em HTML é class = css é . */
+
+body{
+
+    background-image: linear-gradient(to right, #03A696, #04BF9D);
+}
+main {
+    background-color: rgb(253, 237, 203);
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.404);
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+}
+h1{
+    color: #F27457;
+    font-family: escola;
+    font-size: 25px;
+}
+h1#principal{
+    text-align: center;
+    background-color: #253659;
+    border-radius: 8px;
+    font-family: escola;
+    font-size: 35px;
+}
+
+h2{
+    color: #F27457;
+    font-family: escola;
+    font-size: 19px;
+}
+.basico
+{
+    color: #F27457;
+    font-weight: bold;
+    text-align: center;
+
+}
+.intermediario{
+    color: #F27457;
+    font-weight: bold;
+    text-align: center;
+
+}
+.avancado{
+    color: #F27457;
+    font-weight: bold;
+    text-align: center;
+    }
+
+.destaque{
+    background-color:#253659 ;
+    text-align: center;
+    border-radius: 8px;
+}
+p{
+    font-family:escola;
+    font-size: 19px;
+    text-align: justify;
+}

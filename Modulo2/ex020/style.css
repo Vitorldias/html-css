@@ -1,0 +1,25 @@
+@charset "UTF-08";
+
+body{
+
+    background-image: linear-gradient(to right, #03A696, #04BF9D);
+}
+main {
+    background-color: rgb(253, 237, 203);
+    border-radius: 30px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.404);
+    width: 800px;
+    padding: 10px;
+    margin: auto;
+}
+div{
+    display: inline-block;
+    background-color: lightgrey;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px; /*altura*/
+    width: 200px; /*largura*/
+}
+div:hover{
+    background-color: yellow;
+}
