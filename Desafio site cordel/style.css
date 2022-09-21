@@ -1,11 +1,15 @@
 @charset "UTF-O8";
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ms+Madi&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
 
 :root {
     --fonte1: verdana, geneva, tahoma, sans-serif;
     --fonte2:'Passion One', cursive;
     --fonte3:'Sriracha', cursive;
+    --fonte4:'Ms Madi', cursive;
+    --fonte5:'Dancing Script', cursive;
 }
 
 * {
@@ -48,7 +52,7 @@ a:hover {
 }
 
 section.normal {
-    background-color: white;
+    background-color: #F2EFEB;
     color: black;
 }
 
@@ -57,7 +61,7 @@ section{
     padding-bottom: 10vh;
     line-height: 2em;
     padding-left: 30px;
-    font-family: var(--fonte3);
+    font-family: var(--fonte5);
     font-size: 3.5vw;
 
 }
@@ -65,12 +69,35 @@ section{
 section.imagem {
     background-color: rgba(0, 0, 0, 0.685);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section > p{
+    padding-bottom: 2em;
 }
 
 section.imagem > p {
     display: inline-block;
-    padding: 5px;
-    background-color: hsla(0, 0%, 0%, 0.253);
+    padding: 8px;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    text-shadow: 1px 1px 0px black;
+    border-radius: 15px;
+    
+    
+}
+
+section#img01 {
+    background-image: url(imagens/background001.jpg);
+    background-position: right center;
+    
+
+}
+
+section#img02 {
+    background-image: url(imagens/background002.jpg);
+    
 }
 footer {
     background-color: black;
