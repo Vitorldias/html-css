@@ -1,0 +1,26 @@
+@charset "UTF-O8";
+body {
+    /*height: 100vh;
+    background-color: black;
+    background-position: center center;
+    background-image: url(Imagens/wallpaper002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+     Shorthand - background
+        color > image > position > repeat > [size]
+        >attachment
+        por enquanto só nao funciona o size, tendo que ser separado
+    */
+    background: black url(Imagens/wallpaper002.jpg) center center no-repeat fixed;
+    background-size: cover;
+}
+
+main {
+    background-color: white;
+    max-width: 400px;
+    padding: 10px;
+    margin: auto;
+    border: 1pz solid darkblue;
+    border-radius: 10px;
+}
