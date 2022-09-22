@@ -15,7 +15,6 @@ body {
 }
 body * {
     box-sizing: border-box;
-    
 }
 
 .main-login {
@@ -106,13 +105,14 @@ body * {
 
 .btn-login1 {
     width: 35%;
-    padding: 12px 0px;
-    margin: 5% 10% 5% 15% ;
+    padding: 17px 0px;
+    margin: 7% 30% 3% 30% ;
     border: none ;
     border-radius: 8px; 
     outline: none;
     text-transform: uppercase; 
     font-weight: 600;
+    font-size: 1.01em;
     letter-spacing: 1.5px;
     color: #2b134b;
     background: #00ff88;
@@ -133,33 +133,6 @@ body * {
 
 }
 
-.btn-login2 {
-    width: 35%;
-    padding: 12px 0px;
-    margin: -10%;
-    border: none ;
-    border-radius: 8px;
-    outline: none; 
-    text-transform: uppercase; 
-    font-weight: 600;
-    letter-spacing: 1.5px;
-    color: #2b134b;
-    background: #00ff88;
-    cursor: pointer;
-    box-shadow: 0px 10px 40px -12px #00ff8052;
-    
-}
-
-.btn-login2:hover {
-    transform: scale(1.03);
-    font-weight: 700;
-    background-color: #00ffd5;
-}
-
-.btn-login2 > a {
-    text-decoration: none;
-    color: #2b134b;
-}
 .recovery{
     font-family: var(--fonte02);
     color: #f0ffffde;
@@ -167,12 +140,6 @@ body * {
     box-shadow: 0px 10px 40px #00000056; 
     outline: none;
     box-sizing: border-box;
-}
-.esquecer {
-    color: white;
-    text-decoration: none;
-    
-    
 }
 
 @media only screen and (max-width: 950px){
