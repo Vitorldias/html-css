@@ -194,12 +194,12 @@ body * {
     }
     .btn-login2 {
         margin: 5% 10% 5% 25% ;
-        padding: 20px 0px;
+        padding: 10px 0px;
         width: 50%;
     }
     .btn-login1 {
         margin: 5% 10% 2% 25% ;
-        padding: 20px 0px;
+        padding: 10px 0px;
         width: 50%;
     }
     .left-login {
@@ -210,11 +210,15 @@ body * {
     .right-login {
         width: 100%;
         height: auto;
+        margin-top: -5%;
     }
     .left-login-image {
         width: 50vw;
+        margin-top: 18%;
+        
     }
     .card-login {
-        width: 90%;
+        width: 80%;
+        height: 100%;
     }
 }

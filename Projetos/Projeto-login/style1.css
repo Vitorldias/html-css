@@ -176,12 +176,14 @@ body * {
 
     .right-login {
         width: 100%;
-        height: auto;
+        height: 62%;
     }
     .left-login-image {
         width: 50vw;
     }
     .card-login {
         width: 90%;
+        height: auto;
+        margin-top: auto;
     }
 }
