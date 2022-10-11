@@ -185,6 +185,7 @@ body * {
     .main-login {
         flex-direction: column;
     }
+
     .left-login > h1 {
             display: none;
     }
@@ -213,8 +214,8 @@ body * {
         margin-top: -5%;
     }
     .left-login-image {
-        width: 50vw;
-        margin-top: 18%;
+        width: 70vw;
+        margin-top: 11%;
         
     }
     .card-login {

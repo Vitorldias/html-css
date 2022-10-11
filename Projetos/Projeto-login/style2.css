@@ -11,7 +11,7 @@
 }
 body {
     font-family: var(--fonte02);
-    background-color: #121214;
+    background-color: #201b2c;
 }
 body * {
     box-sizing: border-box;
@@ -193,7 +193,8 @@ ul {
         height: 62%;
     }
     .left-login-image {
-        width: 50vw;
+        width: 80vw;
+        margin-top: 11%;
     }
     .card-login {
         width: 80%;

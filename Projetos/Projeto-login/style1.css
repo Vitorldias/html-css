@@ -179,11 +179,12 @@ body * {
         height: 62%;
     }
     .left-login-image {
-        width: 50vw;
+        width: 70vw;
+        margin-top: 5%;
     }
     .card-login {
-        width: 90%;
+        width: 80%;
         height: auto;
-        margin-top: auto;
+        margin-top: 5%;
     }
 }
