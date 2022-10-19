@@ -1,0 +1,45 @@
+@charset "UTF-O8";
+
+body {
+  font-family: Arial, Helvetica, Sans-serif;
+}
+
+thead {
+  background-color: rgb(119, 117, 117);
+  color: white;
+  }
+
+tfoot {
+  background-color: rgb(119, 117, 117);
+  color: white;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 600px;
+}
+
+tr {
+  border: 1px solid black;
+  padding: 10px;
+  
+}
+
+th {
+  border: 1px solid black;
+  padding: 10px;
+  text-align: left;
+  
+}
+
+.media {
+  background-color: rgb(119, 117, 117);
+  color: white;
+}
+
+td {
+  border: 1px solid black;
+  padding: 10px;
+  
+}
